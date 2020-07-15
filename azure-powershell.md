@@ -32,7 +32,7 @@
 $templateFile = "{provide-the-path-to-the-template-file}"
 
 New-AzResourceGroupDeployment 
- -Name blanktemplate /`
- -ResourceGroupName ARMtest /`
+ -Name blanktemplate `
+ -ResourceGroupName ARMtest `
  -TemplateFile $templateFile 
 ```
