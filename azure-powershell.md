@@ -25,7 +25,7 @@
 ``Remove-AzResourceGroup -Name dp200``
 
 ## Delete a Storage Account
-``Remove-AzStorageAccount -ResourceGroupName "dp200" -AccountName "smdevarmfunctionsg"``
+``Remove-AzStorageAccount -ResourceGroupName "dp200" -AccountName "yourAccount"``
 
 ## Deploy an ARM template
 ```
